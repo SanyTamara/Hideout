@@ -1,0 +1,318 @@
+
+body {
+    font-family: 'Xanh Mono', monospace;
+    background-color: #514240;
+    color: white;
+    font-size: 0.9em;
+}
+
+header{
+    background-color: rgb(39, 30, 30);
+    height: 170px;
+    max-height: 170px;
+    border-radius: 50px 20px;
+}
+
+ul#menu{
+    list-style: "→" inside none;
+}
+ul#menu li {
+    font-size: 1.5vw;
+    float: left;
+    padding: 0 2vw;
+  }
+a{
+    color: wheat;
+}
+.link{
+    color: white;
+}
+.link:hover{
+    color: rosybrown;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    max-width: 940px;
+    margin: 2vw auto;
+    overflow: auto;
+    border: 2px solid #393030;
+    padding: 2vw;
+    border-radius: 50px 20px;
+    position: relative;
+}
+.containerQuote {
+    width: 90%;
+    height: auto;
+    max-width: 940px;
+    margin: 1vw auto;
+    overflow: auto;
+    background-color:  #393030;
+    padding: 2vw;
+    border-radius: 50px 20px;
+    position: relative;
+}
+
+.row{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.padLef{
+    padding-left: 2%;
+}
+.padRig{
+    padding-right: 2%;
+}
+.jumpLine{
+    width: 100%;
+    height: 15%;
+}
+.rightCol{
+    float: right;
+}
+
+.col{
+    float: left;
+}
+
+.col img {
+    padding: 0 auto;
+    align-self: center;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+.col1{
+    width: 6.333333%;
+}
+.col2{
+    width: 14.666667%;
+}
+.col3{
+    width: 22.666666%;
+}
+.col4{
+    width: 31.333333%;
+}
+.col5{
+    width: 39.666665%;
+}
+.col6{
+    width: 47.999998%;
+}
+.col7{
+    width: 56.333330%;
+}
+.col8{
+    width: 64.666664%;
+}
+.col9{
+    width: 72.999997%;
+}
+.col10{
+    width: 81.333333%;
+}
+.col11{
+    width: 89.666663%;
+}
+.col12{
+    width: 98%;
+}
+
+.logoName{
+    font-size: 1.5em;
+}
+.logo{
+    padding: 5px;
+}
+
+.btn-meu{
+    color:#b0190e;
+    background-image:none;
+    background-color:transparent;
+    border-color:#b0190e;
+    padding: 2% 5%;
+    margin: 5 5%;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-shadow: 0 0 1px wheat, 0 0 1px wheat, 0 0 1px wheat, 0 0 1px wheat;
+}
+.btn-meu:hover{
+    text-shadow: none;
+    color:#fff;
+    background-color:#b0190e;
+    border-color:#b0190e
+}
+
+/* Gallery */
+.galleryRows{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column {
+    flex: 32%;
+    max-width: 32%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.column2 {
+    flex: 66%;
+    max-width: 66%;
+    padding: 0 4px;
+}
+  
+.column2 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.estorieta{
+    transition: all ease-in-out 0.2s;
+}
+
+.estorieta:hover{
+    border: 1px solid #888;
+    background-color: #ddd;
+}
+
+/* Styles */
+
+.centerAll {
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}
+
+.noBorder{
+    border: none;
+}
+
+.fontSyne {
+    font-family: 'Syne Mono', monospace;
+}
+
+.divider{
+    border-left: 2px solid #393030;
+}
+
+.textLikeBook{
+    text-indent: 2vw;
+    text-align: justify;
+}
+
+.biggerText {
+    font-size: 1.3vw;
+}
+
+/*profile things */
+.photo{
+    border-radius: 50%;
+    height: 25vw;
+    width: 25vw;
+}
+
+.vitaeBox{
+    height: 100%;
+    width: 50vw;
+    overflow: auto;
+    padding: 1vw;
+    position: relative;
+}
+.vitae{
+    margin: 5vw;
+    color: wheat;
+    font-size: 1.4vw;
+    text-align: center;
+    vertical-align:middle;
+    display:table-cell;
+}
+
+/*game things */
+.gameFont{
+    color: wheat;
+    font-size: 2.5vw;
+}
+.gameContainer {
+    width: 60vw;
+    height: auto;
+    margin: 5% auto;
+    overflow: auto;
+    border: 2px solid #393030;
+    padding: 10px;
+    border-radius: 50px 20px;
+}
+.doggu{
+    margin-top: 7vw;
+    height: 23vw;
+    width: 23vw;
+}
+
+.game{
+    color: wheat;
+    width: 100vw;
+    height: 100vw;
+    margin: 0 auto;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    background-color: rgb(42, 117, 42);
+    border-radius: 10px;
+}
+
+.game > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    vertical-align: middle;
+}
+
+  
+.game img {
+    padding: 0 auto;
+    align-self: center;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 10vw) {
+    .game {
+      width: 40vw;
+      height: 40vw;
+      border-radius: 10px;
+    }
+  
+    .game>div {
+      border-radius: 2px;
+    }
+}

@@ -1,0 +1,65 @@
+<doctype! html>
+    <head>
+        <title>InSanyty's Little Hideout</title>
+        <link href="CSS/style.css" rel="stylesheet" type="text/CSS">
+        <link href="CSS/normalize.css" rel="stylesheet" type="text/CSS">
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes">
+    </head>
+    <body>
+        <div class="header">
+            <div class="row">
+                <header>
+                    <div class="col col4 padLef">
+                        <div class="jumpLine"></div>
+                        <p class="logoName jumpLine rightCol">In<u><i>Sany</i></u>ty's Little Hideout</p>
+                    </div>
+                    <div class="col col4">
+                        <center>
+                            <a href="profile.html"><img class="logo" src="img/Logo.png" alt="profile"></a>
+                        </center>
+                    </div>
+                    <div class="col col4 padRig">
+                        <div class="jumpLine"></div>
+                        <div class="jumpLine"></div>
+                        <div class="row">
+                            <a href="index.html"><button class="btn-meu active rightCol">HOME</button></a>
+                        </div>
+                        <div class="row">
+                            <a href="game.html"><button class="btn-meu active rightCol">PLAY</button></a>
+                        </div>
+                        
+                    </div>
+                </header>
+            </div>
+        </div>
+
+        <div class="row gameFont">
+            <div class="gameContainer gameFont">
+                <h2 align="center">Find the Poop~</h2>
+                <h4 align="center">Where is my poop?</h4>
+                
+                <div class="row">
+                    <div class="col col4 centerAll">
+                        <img src="img/doggu.gif" height="100%">
+                    </div>
+                    <div class="col col8">
+                        <div class="game">
+                    
+                            <script src="js/poop.js"></script>
+            
+                            <script>
+                                poop.init(document.querySelector('.game'));
+                                poop.start();
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                
+                <p align="center">UNDER CONSTRUCTION</p>
+
+            </div>
+            
+        </div>
+    </body>
+</doctype>
