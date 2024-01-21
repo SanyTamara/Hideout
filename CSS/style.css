@@ -43,7 +43,7 @@ a{
     position: relative;
 }
 .containerQuote {
-    width: 90%;
+    width: auto;
     height: auto;
     max-width: 940px;
     margin: 1vw auto;
@@ -61,6 +61,9 @@ a{
     overflow: auto;
 }
 
+.noPad{
+    padding: 0;
+}
 .padLef{
     padding-left: 2%;
 }
@@ -74,7 +77,6 @@ a{
 .rightCol{
     float: right;
 }
-
 .col{
     float: left;
 }
@@ -86,6 +88,18 @@ a{
     max-width: 100%;
     height: auto;
 }
+@media screen and (max-width: 712px) {
+    .col-mob{
+        width: 100%!important;
+    }
+}
+@media screen and (min-width: 712px) {
+    .flex {
+        display: flex;
+        margin: auto;
+    }
+}
+
 .col1{
     width: 6.333333%;
 }
@@ -122,6 +136,8 @@ a{
 .col12{
     width: 98%;
 }
+
+
 
 .logoName{
     font-size: 1.5em;
@@ -228,7 +244,7 @@ a{
 }
 
 .biggerText {
-    font-size: 1.3vw;
+    font-size: 1.3em;
 }
 
 /*profile things */
@@ -260,7 +276,7 @@ a{
     font-size: 2.5vw;
 }
 .gameContainer {
-    width: 60vw;
+    max-width: 90%;
     height: auto;
     margin: 5% auto;
     overflow: auto;
@@ -276,8 +292,8 @@ a{
 
 .game{
     color: wheat;
-    width: 100vw;
-    height: 100vw;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
     display: grid;
     flex-wrap: wrap;
@@ -294,6 +310,7 @@ a{
     align-content: center;
     align-self: center;
     vertical-align: middle;
+    margin: 20%;
 }
 
   
@@ -303,16 +320,4 @@ a{
     vertical-align: middle;
     max-width: 100%;
     height: auto;
-}
-
-@media (min-width: 10vw) {
-    .game {
-      width: 40vw;
-      height: 40vw;
-      border-radius: 10px;
-    }
-  
-    .game>div {
-      border-radius: 2px;
-    }
 }
